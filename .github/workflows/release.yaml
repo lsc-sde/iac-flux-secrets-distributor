@@ -11,5 +11,5 @@ jobs:
     uses: lsc-sde/lsc-sde/.github/workflows/flux-release.yaml@main
     with:
       directory: iac/flux/secrets-distributor
-      yamlPath: secrets_distributor_branch
+      yamlPath: secrets_distributor
     secrets: inherit
