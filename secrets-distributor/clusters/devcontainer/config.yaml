@@ -1,0 +1,10 @@
+image: ${secrets_distributor_image}
+
+volumes:
+- name: secrets-volume
+  configMap:
+    name: secret-mount
+
+volumeMounts:
+- name: secrets-volume
+  mountPath: /mnt/secrets

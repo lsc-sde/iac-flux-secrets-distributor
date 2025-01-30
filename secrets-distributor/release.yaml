@@ -29,3 +29,5 @@ spec:
   valuesFrom:
   - kind: ConfigMap
     name: secret-distributor-config
+  - kind: ConfigMap
+    name: secrets-distributor-base-config
